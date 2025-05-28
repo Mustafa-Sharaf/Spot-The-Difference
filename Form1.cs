@@ -1,4 +1,4 @@
-﻿using System;
+﻿/*using System;
 using System.Collections.Generic;
 using System.Drawing;
 using System.Windows.Forms;
@@ -309,5 +309,184 @@ namespace SpotDifferenceGames
         }
 
 
+    }
+}
+*/
+
+
+
+using System;
+using System.Collections.Generic;
+using System.Drawing;
+using System.Windows.Forms;
+using SpotDifferenceGames.GameLogic;
+using SpotDifferenceGames.Services;
+
+namespace SpotDifferenceGames
+{
+    public partial class Form1 : Form
+    {
+        private int imageLoadCount = 0;
+        private  GameTimer gameTimer;
+        private int gameLevel = 0;
+        private static readonly List<(Point location, bool isDifference, bool isLeft)> list = new List<(Point location, bool isDifference, bool isLeft)>();
+
+        private List<(Point location, bool isDifference, bool isLeft)> clickPoints = list;
+        private int wrongAttempts = 0;
+
+
+        public Form1()
+        {
+            InitializeComponent();
+            this.Load += Form1_Load;
+
+            pictureBoxLeft.MouseClick += PictureBox_Click;
+            pictureBoxRight.MouseClick += PictureBox_Click;
+
+            pictureBoxLeft.Paint += PictureBox_Paint;
+            pictureBoxRight.Paint += PictureBox_Paint;
+        }
+
+        private void ChoosePicture_Click(object sender, EventArgs e)
+        {
+            if (gameLevel == 0)
+            {
+                MessageBox.Show("الرجاء اختيار مستوى قبل تحميل الصور.", "تنبيه", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                return;
+            }
+            using (OpenFileDialog openFileDialog = new OpenFileDialog())
+            {
+                if (openFileDialog.ShowDialog() == DialogResult.OK)
+                {
+                    Image selectedImage = Image.FromFile(openFileDialog.FileName);
+
+                    if (imageLoadCount == 0)
+                    {
+                        pictureBoxLeft.Image = selectedImage;
+                        pictureBoxLeft.Size = selectedImage.Size;
+                        pictureBoxLeft.SizeMode = PictureBoxSizeMode.Normal;
+                        imageLoadCount++;
+                    }
+                    else if (imageLoadCount == 1)
+                    {
+                        pictureBoxRight.Image = selectedImage;
+                        pictureBoxRight.Size = selectedImage.Size;
+                        pictureBoxRight.SizeMode = PictureBoxSizeMode.Normal;
+                        imageLoadCount++;
+
+                        if (gameLevel >= 2)
+                            StartGameTimer();
+
+                        ChoosePicture.Enabled = false;
+                    }
+                }
+            }
+
+
+           
+           
+        }
+
+        private void PictureBox_Click(object sender, MouseEventArgs e)
+        {
+            if (pictureBoxLeft.Image == null || pictureBoxRight.Image == null) return;
+
+            var clickedBox = (PictureBox)sender;
+            bool isLeft = clickedBox == pictureBoxLeft;
+
+            Bitmap bmpLeft = (Bitmap)pictureBoxLeft.Image;
+            Bitmap bmpRight = (Bitmap)pictureBoxRight.Image;
+
+            bool isDifferent = ImageDifferenceChecker.IsRegionDifferent(bmpLeft, bmpRight, e.X, e.Y);
+
+            clickPoints.Add((e.Location, isDifferent, isLeft));
+            clickPoints.Add((new Point(e.X, e.Y), isDifferent, !isLeft));
+
+            pictureBoxLeft.Invalidate();
+            pictureBoxRight.Invalidate();
+
+            if (isDifferent)
+            {
+                SoundPlayerService.Play("E:\\Fourth year\\Semester2(2024-2025)\\نظم الوسائط المتعددة\\Multimedia Systems\\true answers .mp3");
+                label1.Text = $"Number of detected differences: {GetDiscoveredDifferencesCount()}";
+                label2.Text = $"Number of remaining differences: {5 - GetDiscoveredDifferencesCount()}";
+
+                if (GetDiscoveredDifferencesCount() == 5)
+                {
+                    MessageBox.Show("مبروك لقد ربحت.", "نجاح", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                    Close();
+                }
+            }
+            else
+            {
+                SoundPlayerService.Play("E:\\Fourth year\\Semester2(2024-2025)\\نظم الوسائط المتعددة\\Multimedia Systems\\wrong answers .mp3");
+           
+                if (gameLevel == 3)
+                {
+                    wrongAttempts++;
+                    labelAttempts.Text = $"Remaining Attempts: {(6 - wrongAttempts) / 2}";
+
+                    if (wrongAttempts >= 6)
+                    {
+                        gameTimer.Stop();
+                        MessageBox.Show("لقد خسرت اللعبة!", "خسارة", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                        Close();
+                    }
+                }
+
+            }
+        }
+
+        private void PictureBox_Paint(object sender, PaintEventArgs e)
+        {
+            foreach (var (location, isDifference, _) in clickPoints)
+            {
+                if (isDifference)
+                    e.Graphics.DrawEllipse(Pens.Green, location.X - 20, location.Y - 20, 40, 40);
+                else
+                {
+                    e.Graphics.DrawLine(Pens.Red, location.X - 15, location.Y - 15, location.X + 15, location.Y + 15);
+                    e.Graphics.DrawLine(Pens.Red, location.X - 15, location.Y + 15, location.X + 15, location.Y - 15);
+                }
+            }
+        }
+
+        private int GetDiscoveredDifferencesCount()
+        {
+            var uniquePoints = new HashSet<Point>();
+            foreach (var (location, isDiff, isLeft) in clickPoints)
+                if (isDiff && isLeft) uniquePoints.Add(location);
+            return uniquePoints.Count;
+        }
+
+        private void StartGameTimer()
+        {
+            gameTimer = new GameTimer(gameLevel);
+            gameTimer.OnTimerTick += (minutes, seconds) =>
+            {
+                labelTimer.Text = $"Time: {minutes:D2}:{seconds:D2}";
+            };
+            gameTimer.OnTimeUp += () =>
+            {
+                MessageBox.Show("انتهى الوقت!", "انتهى الوقت", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                Close();
+            };
+            gameTimer.Start();
+        }
+
+        private void comboBoxLevel_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            gameLevel = comboBoxLevel.SelectedIndex + 1;
+
+            labelTimer.Visible = gameLevel >= 2;
+            labelAttempts.Visible = gameLevel == 3;
+        }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+            comboBoxLevel.Items.Add("Level 1 without timer");
+            comboBoxLevel.Items.Add("Level 2 with timer");
+            comboBoxLevel.Items.Add("Level 3 with timer and attempts");
+        }
     }
 }

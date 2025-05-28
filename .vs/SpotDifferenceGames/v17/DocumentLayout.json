@@ -1,0 +1,167 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "E:\\Fourth year\\Semester2(2024-2025)\\\u0646\u0638\u0645 \u0627\u0644\u0648\u0633\u0627\u0626\u0637 \u0627\u0644\u0645\u062A\u0639\u062F\u062F\u0629\\Projects\\SpotDifferenceGames\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{E5677E5A-8A13-46D0-87C4-9116CDC42CCC}|SpotDifferenceGames.csproj|e:\\fourth year\\semester2(2024-2025)\\\u0646\u0638\u0645 \u0627\u0644\u0648\u0633\u0627\u0626\u0637 \u0627\u0644\u0645\u062A\u0639\u062F\u062F\u0629\\projects\\spotdifferencegames\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E5677E5A-8A13-46D0-87C4-9116CDC42CCC}|SpotDifferenceGames.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E5677E5A-8A13-46D0-87C4-9116CDC42CCC}|SpotDifferenceGames.csproj|E:\\Fourth year\\Semester2(2024-2025)\\\u0646\u0638\u0645 \u0627\u0644\u0648\u0633\u0627\u0626\u0637 \u0627\u0644\u0645\u062A\u0639\u062F\u062F\u0629\\Projects\\SpotDifferenceGames\\gamelogic\\soundplayerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E5677E5A-8A13-46D0-87C4-9116CDC42CCC}|SpotDifferenceGames.csproj|solutionrelative:gamelogic\\soundplayerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E5677E5A-8A13-46D0-87C4-9116CDC42CCC}|SpotDifferenceGames.csproj|E:\\Fourth year\\Semester2(2024-2025)\\\u0646\u0638\u0645 \u0627\u0644\u0648\u0633\u0627\u0626\u0637 \u0627\u0644\u0645\u062A\u0639\u062F\u062F\u0629\\Projects\\SpotDifferenceGames\\gamelogic\\imagedifferencechecker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E5677E5A-8A13-46D0-87C4-9116CDC42CCC}|SpotDifferenceGames.csproj|solutionrelative:gamelogic\\imagedifferencechecker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E5677E5A-8A13-46D0-87C4-9116CDC42CCC}|SpotDifferenceGames.csproj|E:\\Fourth year\\Semester2(2024-2025)\\\u0646\u0638\u0645 \u0627\u0644\u0648\u0633\u0627\u0626\u0637 \u0627\u0644\u0645\u062A\u0639\u062F\u062F\u0629\\Projects\\SpotDifferenceGames\\gamelogic\\gametimer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E5677E5A-8A13-46D0-87C4-9116CDC42CCC}|SpotDifferenceGames.csproj|solutionrelative:gamelogic\\gametimer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E5677E5A-8A13-46D0-87C4-9116CDC42CCC}|SpotDifferenceGames.csproj|E:\\Fourth year\\Semester2(2024-2025)\\\u0646\u0638\u0645 \u0627\u0644\u0648\u0633\u0627\u0626\u0637 \u0627\u0644\u0645\u062A\u0639\u062F\u062F\u0629\\Projects\\SpotDifferenceGames\\gamelogic\\gamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E5677E5A-8A13-46D0-87C4-9116CDC42CCC}|SpotDifferenceGames.csproj|solutionrelative:gamelogic\\gamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E5677E5A-8A13-46D0-87C4-9116CDC42CCC}|SpotDifferenceGames.csproj|E:\\Fourth year\\Semester2(2024-2025)\\\u0646\u0638\u0645 \u0627\u0644\u0648\u0633\u0627\u0626\u0637 \u0627\u0644\u0645\u062A\u0639\u062F\u062F\u0629\\Projects\\SpotDifferenceGames\\form1.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E5677E5A-8A13-46D0-87C4-9116CDC42CCC}|SpotDifferenceGames.csproj|solutionrelative:form1.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E5677E5A-8A13-46D0-87C4-9116CDC42CCC}|SpotDifferenceGames.csproj|E:\\Fourth year\\Semester2(2024-2025)\\\u0646\u0638\u0645 \u0627\u0644\u0648\u0633\u0627\u0626\u0637 \u0627\u0644\u0645\u062A\u0639\u062F\u062F\u0629\\Projects\\SpotDifferenceGames\\form1.resx||{81828910-B8B3-4D2B-99A3-067027C180C1}",
+      "RelativeMoniker": "D:0:0:{E5677E5A-8A13-46D0-87C4-9116CDC42CCC}|SpotDifferenceGames.csproj|solutionrelative:form1.resx||{81828910-B8B3-4D2B-99A3-067027C180C1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E5677E5A-8A13-46D0-87C4-9116CDC42CCC}|SpotDifferenceGames.csproj|E:\\Fourth year\\Semester2(2024-2025)\\\u0646\u0638\u0645 \u0627\u0644\u0648\u0633\u0627\u0626\u0637 \u0627\u0644\u0645\u062A\u0639\u062F\u062F\u0629\\Projects\\SpotDifferenceGames\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E5677E5A-8A13-46D0-87C4-9116CDC42CCC}|SpotDifferenceGames.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Form1.Designer.cs",
+              "DocumentMoniker": "E:\\Fourth year\\Semester2(2024-2025)\\\u0646\u0638\u0645 \u0627\u0644\u0648\u0633\u0627\u0626\u0637 \u0627\u0644\u0645\u062A\u0639\u062F\u062F\u0629\\Projects\\SpotDifferenceGames\\Form1.Designer.cs",
+              "RelativeDocumentMoniker": "Form1.Designer.cs",
+              "ToolTip": "E:\\Fourth year\\Semester2(2024-2025)\\\u0646\u0638\u0645 \u0627\u0644\u0648\u0633\u0627\u0626\u0637 \u0627\u0644\u0645\u062A\u0639\u062F\u062F\u0629\\Projects\\SpotDifferenceGames\\Form1.Designer.cs",
+              "RelativeToolTip": "Form1.Designer.cs",
+              "ViewState": "AgIAAJAAAAAAAAAAAAAYwJkAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-27T19:41:01.714Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Form1.cs",
+              "DocumentMoniker": "E:\\Fourth year\\Semester2(2024-2025)\\\u0646\u0638\u0645 \u0627\u0644\u0648\u0633\u0627\u0626\u0637 \u0627\u0644\u0645\u062A\u0639\u062F\u062F\u0629\\Projects\\SpotDifferenceGames\\Form1.cs",
+              "RelativeDocumentMoniker": "Form1.cs",
+              "ToolTip": "E:\\Fourth year\\Semester2(2024-2025)\\\u0646\u0638\u0645 \u0627\u0644\u0648\u0633\u0627\u0626\u0637 \u0627\u0644\u0645\u062A\u0639\u062F\u062F\u0629\\Projects\\SpotDifferenceGames\\Form1.cs",
+              "RelativeToolTip": "Form1.cs",
+              "ViewState": "AgIAAEYBAAAAAAAAAAAuwE8BAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-27T19:24:36.899Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "GameTimer.cs",
+              "DocumentMoniker": "E:\\Fourth year\\Semester2(2024-2025)\\\u0646\u0638\u0645 \u0627\u0644\u0648\u0633\u0627\u0626\u0637 \u0627\u0644\u0645\u062A\u0639\u062F\u062F\u0629\\Projects\\SpotDifferenceGames\\GameLogic\\GameTimer.cs",
+              "RelativeDocumentMoniker": "GameLogic\\GameTimer.cs",
+              "ToolTip": "E:\\Fourth year\\Semester2(2024-2025)\\\u0646\u0638\u0645 \u0627\u0644\u0648\u0633\u0627\u0626\u0637 \u0627\u0644\u0645\u062A\u0639\u062F\u062F\u0629\\Projects\\SpotDifferenceGames\\GameLogic\\GameTimer.cs",
+              "RelativeToolTip": "GameLogic\\GameTimer.cs",
+              "ViewState": "AgIAABcAAAAAAAAAAAAgwBcAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-27T19:32:46.415Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ImageDifferenceChecker.cs",
+              "DocumentMoniker": "E:\\Fourth year\\Semester2(2024-2025)\\\u0646\u0638\u0645 \u0627\u0644\u0648\u0633\u0627\u0626\u0637 \u0627\u0644\u0645\u062A\u0639\u062F\u062F\u0629\\Projects\\SpotDifferenceGames\\GameLogic\\ImageDifferenceChecker.cs",
+              "RelativeDocumentMoniker": "GameLogic\\ImageDifferenceChecker.cs",
+              "ToolTip": "E:\\Fourth year\\Semester2(2024-2025)\\\u0646\u0638\u0645 \u0627\u0644\u0648\u0633\u0627\u0626\u0637 \u0627\u0644\u0645\u062A\u0639\u062F\u062F\u0629\\Projects\\SpotDifferenceGames\\GameLogic\\ImageDifferenceChecker.cs",
+              "RelativeToolTip": "GameLogic\\ImageDifferenceChecker.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-27T19:32:11.548Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "SoundPlayerService.cs",
+              "DocumentMoniker": "E:\\Fourth year\\Semester2(2024-2025)\\\u0646\u0638\u0645 \u0627\u0644\u0648\u0633\u0627\u0626\u0637 \u0627\u0644\u0645\u062A\u0639\u062F\u062F\u0629\\Projects\\SpotDifferenceGames\\GameLogic\\SoundPlayerService.cs",
+              "RelativeDocumentMoniker": "GameLogic\\SoundPlayerService.cs",
+              "ToolTip": "E:\\Fourth year\\Semester2(2024-2025)\\\u0646\u0638\u0645 \u0627\u0644\u0648\u0633\u0627\u0626\u0637 \u0627\u0644\u0645\u062A\u0639\u062F\u062F\u0629\\Projects\\SpotDifferenceGames\\GameLogic\\SoundPlayerService.cs",
+              "RelativeToolTip": "GameLogic\\SoundPlayerService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-27T19:31:11.415Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "GameManager.cs",
+              "DocumentMoniker": "E:\\Fourth year\\Semester2(2024-2025)\\\u0646\u0638\u0645 \u0627\u0644\u0648\u0633\u0627\u0626\u0637 \u0627\u0644\u0645\u062A\u0639\u062F\u062F\u0629\\Projects\\SpotDifferenceGames\\GameLogic\\GameManager.cs",
+              "RelativeDocumentMoniker": "GameLogic\\GameManager.cs",
+              "ToolTip": "E:\\Fourth year\\Semester2(2024-2025)\\\u0646\u0638\u0645 \u0627\u0644\u0648\u0633\u0627\u0626\u0637 \u0627\u0644\u0645\u062A\u0639\u062F\u062F\u0629\\Projects\\SpotDifferenceGames\\GameLogic\\GameManager.cs",
+              "RelativeToolTip": "GameLogic\\GameManager.cs",
+              "ViewState": "AgIAACEAAAAAAAAAAAAowC8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-27T19:30:09.018Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Program.cs",
+              "DocumentMoniker": "E:\\Fourth year\\Semester2(2024-2025)\\\u0646\u0638\u0645 \u0627\u0644\u0648\u0633\u0627\u0626\u0637 \u0627\u0644\u0645\u062A\u0639\u062F\u062F\u0629\\Projects\\SpotDifferenceGames\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "E:\\Fourth year\\Semester2(2024-2025)\\\u0646\u0638\u0645 \u0627\u0644\u0648\u0633\u0627\u0626\u0637 \u0627\u0644\u0645\u062A\u0639\u062F\u062F\u0629\\Projects\\SpotDifferenceGames\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABIAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-22T07:28:12.71Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Form1.resx",
+              "DocumentMoniker": "E:\\Fourth year\\Semester2(2024-2025)\\\u0646\u0638\u0645 \u0627\u0644\u0648\u0633\u0627\u0626\u0637 \u0627\u0644\u0645\u062A\u0639\u062F\u062F\u0629\\Projects\\SpotDifferenceGames\\Form1.resx",
+              "RelativeDocumentMoniker": "Form1.resx",
+              "ToolTip": "E:\\Fourth year\\Semester2(2024-2025)\\\u0646\u0638\u0645 \u0627\u0644\u0648\u0633\u0627\u0626\u0637 \u0627\u0644\u0645\u062A\u0639\u062F\u062F\u0629\\Projects\\SpotDifferenceGames\\Form1.resx",
+              "RelativeToolTip": "Form1.resx",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001005|",
+              "WhenOpened": "2025-05-22T06:46:23.961Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

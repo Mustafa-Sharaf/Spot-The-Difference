@@ -135,6 +135,10 @@
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
+    <Compile Include="GameLogic\GameManager.cs" />
+    <Compile Include="GameLogic\GameTimer.cs" />
+    <Compile Include="GameLogic\ImageDifferenceChecker.cs" />
+    <Compile Include="GameLogic\SoundPlayerService.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Form1.resx">
@@ -163,5 +167,6 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
