@@ -1,7 +1,7 @@
-# Spot-The-Difference:
+# [Spot-The-Difference:](#Spot-The-Difference)
 It is a game based on discovering the difference between two images, depending on accuracy and focus.
 
-## Game building:
+## [Game building:](#Gamebuilding:)
 1- An interface was built that receives two images and contains a download button and a level selection button, and displays the timer, number of attempts, and the number of detected and remaining differences.
 
 2- The player selects the level and then selects the images to play.
@@ -10,10 +10,10 @@ It is a game based on discovering the difference between two images, depending o
 
 4-Sound and visual effects were also created.
 
-## Frameworks & Tools:
+## [Frameworks & Tools:](#Frameworks&Tools:)
 - ![C#](https://img.shields.io/badge/C%23-239120?style=for-the-badge&logo=c-sharp&logoColor=white)  
 - ![Visual Studio 2022](https://img.shields.io/badge/Visual%20Studio%202022-5C2D91?style=for-the-badge&logo=visual-studio&logoColor=white)
-## [🖼️Project Preview](#Project-Preview)
+## [Project Preview](#Project-Preview)
 ![Images](Images/Image1.png)
 ![Images](Images/Image2.png)
 ![Images](Images/Image3.png)
