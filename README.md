@@ -14,10 +14,10 @@ It is a game based on discovering the difference between two images, depending o
 - ![C#](https://img.shields.io/badge/C%23-239120?style=for-the-badge&logo=c-sharp&logoColor=white)  
 - ![Visual Studio 2022](https://img.shields.io/badge/Visual%20Studio%202022-5C2D91?style=for-the-badge&logo=visual-studio&logoColor=white)
 ## [🖼️Project Preview](#Project-Preview)
-![Images](assets/Images/Picture1.png)
-![Images](assets/Images/Picture2.png)
-![Images](assets/Images/Picture3.png)
-![Images](assets/Images/Picture4.png)
+![Images](Images/Image1.png)
+![Images](Images/Image2.png)
+![Images](Images/Image3.png)
+![Images](Images/Image4.png)
 
 
 
